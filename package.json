@@ -1,0 +1,17 @@
+{
+  "name": "deeplx-rotator",
+  "version": "1.0.0",
+  "description": "基于 DeepL 免费接口的翻译 API 服务，通过路径 token 认证，配合 Clash 实现多节点代理轮询，无需 DeepL API Key。",
+  "license": "MIT",
+  "author": "sorrrrrymybad",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.14",
+    "hono": "^4.12.14",
+    "undici": "^8.1.0"
+  }
+}
